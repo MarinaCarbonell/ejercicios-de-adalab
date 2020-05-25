@@ -1,0 +1,51 @@
+.display1 {
+
+    height: 100px;
+    width: 100px;  
+}
+
+.ejemplo1{
+
+    background-color: violet
+}
+
+
+.display2 {
+
+    height: 100px;
+    width: 100px;
+}
+
+.ejemplo2{
+
+    background-color: red
+}
+
+.display3 {
+
+    height: 100px;
+    width: 100px;
+}
+
+.ejemplo3{
+
+    background-color: blue
+
+}
+
+strong{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+    background-color: cyan;
+    
+}
+
+em{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
+    background-color: grey;
+
+}
+
