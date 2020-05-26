@@ -1,0 +1,11 @@
+.dogcontainer {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: black;
+}
+
+.dog {
+    height: 100px;
+    width: 200px;
+}
