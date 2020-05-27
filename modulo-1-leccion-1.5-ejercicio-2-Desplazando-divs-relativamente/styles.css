@@ -1,0 +1,42 @@
+.divPadre {
+    background-color: tomato;
+}
+
+.div1 {
+    background: aqua;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    top: 0;
+    right: 0;
+    bottom: 100px;
+    left: 100px;
+}
+
+.div2 {
+    background: peachpuff;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    top: 0;
+    right: 0;
+    bottom: 320px;
+    left: 150px;
+}
+
+.div3 {
+    background: violet;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    top: 0;
+    right: 0;
+    bottom: 240px;
+    left: 180px;
+}
