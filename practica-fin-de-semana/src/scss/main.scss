@@ -1,8 +1,13 @@
 @import 'core/variables';
 @import 'core/reset';
-@import 'components/links';
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/hero';
+@import 'layout/top-section';
+@import 'layout/section';
 @import 'layout/footer';
 @import 'pages/index';
+
+.wrapper{
+    max-width: 1280px;
+}
