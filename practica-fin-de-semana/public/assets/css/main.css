@@ -317,15 +317,21 @@ template {
   top: 0;
   z-index: 10;
   width: 100%; }
+  .header .wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center; }
 
 .hero {
   background: url("../images/slider-home.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   position: relative;
-  top: 55px;
+  top: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -348,8 +354,23 @@ template {
     font-weight: 200Px;
     padding: 0 10px; }
 
-.top-section .wrapper {
-  border: 1px solid red; }
+.top-section {
+  border: 1px solid red;
+  height: 40vh;
+  text-align: center; }
+
+.what-we-do {
+  text-transform: uppercase;
+  color: #15339b;
+  align-items: center;
+  padding: 35px; }
+
+.h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px; }
 
 * {
   box-sizing: border-box;
