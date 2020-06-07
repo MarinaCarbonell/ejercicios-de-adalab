@@ -12,4 +12,7 @@ $fourth-color: #15339b;
 /*FONTS*/
 
 $first-font: 'Source Sans Pro', sans-serif;
+$font-size: 16;
+
+@function rem($pixels) { @return ($pixels / $default-font-size * 1rem); } 
 

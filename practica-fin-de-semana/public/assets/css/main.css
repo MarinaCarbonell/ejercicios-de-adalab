@@ -4,11 +4,6 @@
 /*magenta*/
 /*blue*/
 /*FONTS*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -315,18 +310,58 @@ template {
 [hidden] {
   display: none; }
 
-.header .wrapper {
+.header {
   border: 1px solid red;
-  background-color: #15339b; }
+  background-color: #15339b;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%; }
 
-.hero .wrapper {
-  border: 1px solid red;
-  background-image: url "../assets/images/slider-home.jpg" alt= "slider-home"; }
+.hero {
+  background: url("../images/slider-home.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  top: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.claim {
+  text-align: center; }
+  .claim span {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    font-weight: 300; }
+  .claim span:first-child:before {
+    content: "-";
+    color: #de25e0;
+    font-weight: 200Px;
+    padding: 0 10px; }
+  .claim span:first-child:after {
+    content: "-";
+    color: #de25e0;
+    font-weight: 200Px;
+    padding: 0 10px; }
 
 .top-section .wrapper {
   border: 1px solid red; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 .wrapper {
-  max-width: 1280px; }
+  max-width: 1280px;
+  margin: auto; }
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16; }
 
 /*# sourceMappingURL=main.css.map */

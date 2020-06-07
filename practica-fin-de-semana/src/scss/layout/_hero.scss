@@ -1,4 +1,35 @@
-.hero .wrapper{
-    border: 1px solid red;
-    background-image: url ("../assets/images/slider-home.jpg") alt="slider-home";
+.hero {
+    background: url("../images/slider-home.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    position:relative;
+    top:55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  .claim{
+    text-align: center;
+    span{
+    color: $secondary-color;
+    display:block;
+    text-align: center;
+    font-weight: 300;
+    }
+    span:first-child:before{
+      content: "-";
+      color:$terciary-color;
+      font-weight: 200Px;
+      padding:0 10px;
+    } 
+    span:first-child:after{
+      content: "-";
+      color:$terciary-color;
+      font-weight: 200Px;
+      padding:0 10px;
+    } 
+
   }
