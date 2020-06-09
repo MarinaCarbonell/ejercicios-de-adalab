@@ -1,0 +1,36 @@
+.main {
+    border:1px solid red;
+
+}
+
+.modern-design {
+    border: 1px solid grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 35vh;
+    width: 30vh;
+    padding:20px;
+    h3{
+        padding-bottom:15px;
+     }
+
+    p{
+        padding-bottom: 30px;
+     }
+    
+    h4{
+        padding-bottom: 15px;
+    }
+}
+
+.main-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+

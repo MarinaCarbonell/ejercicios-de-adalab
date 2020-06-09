@@ -317,7 +317,7 @@ template {
   top: 0;
   z-index: 10;
   width: 100%; }
-  .header .wrapper {
+  .header .header-div {
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -372,14 +372,48 @@ template {
   align-items: center;
   padding-bottom: 10px; }
 
+.main {
+  border: 1px solid red; }
+
+.modern-design {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  height: 35vh;
+  width: 30vh;
+  padding: 20px; }
+  .modern-design h3 {
+    padding-bottom: 15px; }
+  .modern-design p {
+    padding-bottom: 30px; }
+  .modern-design h4 {
+    padding-bottom: 15px; }
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 50vh; }
+
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-decoration: none;
+  color: inherit; }
 
 .wrapper {
   max-width: 1280px;
-  margin: auto; }
+  margin: auto;
+  padding: 25px; }
 
 html {
   font-family: "Source Sans Pro", sans-serif;
