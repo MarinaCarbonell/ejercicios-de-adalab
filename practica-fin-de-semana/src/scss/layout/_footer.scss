@@ -14,7 +14,28 @@
 .contact-information span{
     display: block;
     padding-bottom: 10px;
-
-    
-
 }
+
+.footer--social-media{
+    padding-top:20px;
+}
+
+.rrss{
+    padding:5px;
+}
+
+.footer-links{
+    padding:15px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding-top: 25px;
+    & li{
+        padding-right: 10px;
+    }
+    
+}
+
+
