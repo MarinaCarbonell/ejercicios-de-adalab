@@ -1,6 +1,6 @@
 'use strict';
 
-let name = 'vicente';
+let name = 'Marina';
 let hello;
 
 if (name == 'Marina') {

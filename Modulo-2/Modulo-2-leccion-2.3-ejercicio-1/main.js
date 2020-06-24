@@ -18,9 +18,9 @@ console.log (userImg);
 
 if (userAvatar) {
   //un string que no tiene valor por defecto es false. en este caso al no poner nada, lo está cogiendo como false
-  userImg.src = userAvatar;
-} else {
   userImg.src = DEFAULT_AVATAR;
+} else {
+  userImg.src = userAvatar;
 }
 
 console.log (userAvatar);
